@@ -26,3 +26,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=endeavoru BUILD_FINGERPRINT="htc_eu
 # Copy over prebuilt boot animation
 PRODUCT_COPY_FILES += \
     vendor/rootbox/prebuilt/bootanimation/bootanimation_1280_720.zip:system/media/bootanimation.zip
+
+# Add PA Prefs dependencies
+PRODUCT_COPY_FILES += \
+vendor/rootbox/prebuilt/preferences/images/phablet.png:system/etc/paranoid/preferences/images/phablet.png \
+vendor/rootbox/prebuilt/preferences/images/phone.png:system/etc/paranoid/preferences/images/phone.png \
+vendor/rootbox/prebuilt/preferences/images/tablet.png:system/etc/paranoid/preferences/images/tablet.png \
+vendor/rootbox/prebuilt/preferences/images/undefined.png:system/etc/paranoid/preferences/images/undefined.png \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/0_colors.xml:system/etc/paranoid/preferences/0_colors.xml \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/pref_1.xml:system/etc/paranoid/preferences/pref_1.xml \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/pref_2.xml:system/etc/paranoid/preferences/pref_2.xml \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/pref_3.xml:system/etc/paranoid/preferences/pref_3.xml \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/pref_4.xml:system/etc/paranoid/preferences/pref_4.xml \
+vendor/rootbox/prebuilt/preferences/pa_xhdpi/pref_5.xml:system/etc/paranoid/preferences/pref_5.xml
